@@ -14,7 +14,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -34,9 +36,5 @@
   "devDependencies": {
     "gh-pages": "^2.2.0"
   },
-  "homepage": "https://BaterdeneOdongerel.github.io/my-app",
-  "scripts": {
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -b master -d build",
-  }
+  "homepage": "https://BaterdeneOdongerel.github.io/my-app"
 }
