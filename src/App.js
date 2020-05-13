@@ -1,13 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import {BaseLayout} from "./components"
+import BaseLayout from './components/BaseLayout';
+
 function App() {
-  return (
-    <>
-      <BaseLayout/>
-    </>
-  );
+  return <BaseLayout />;
 }
 
 export default App;
