@@ -2,7 +2,7 @@ import React from 'react';
 import "./style.css"
 export const Career = () => {
   return (
-    <>
+    <div >
       <br/> <br/> <br/> <br/> <br/> <br/> <br/>
       <h1 id="career" className="main-title title">
         My <span className="inline_title"> career</span>
@@ -16,12 +16,15 @@ export const Career = () => {
         <div className="timeline_point smaller">
           <span>2020</span>
         </div>
+        <div style={{float: "left", width: "49%"}}>
+
 
         <div className="timeline_unit left" style={{backgroundColor: "#ffe772"}}>
-          <div className="arrow" style={{backgroundColor: "#ffe772"}}></div>
           <div className="icon">
             <img src="https://mksdmcdn-9b59.kxcdn.com/awsm-wp/wp-content/themes/awsm-wp/assets/images/timeline-icons/pin-icon.png" alt=""/>
           </div>
+
+          <div className="arrow" style={{backgroundColor: "#ffe772"}}></div>
           <div className="data_meta_hold">
 
             <h3 className="title_with_image">Software Engineer at Fourkites INC</h3>
@@ -39,11 +42,12 @@ export const Career = () => {
             * Re-architected file processing to balance the stress on the server resource.<br/>
           </p>
         </div>
+        </div>
 
         <div className="timeline_point smaller">
           <span>2019</span>
         </div>
-
+        <div style={{float: "right", width: "50%"}}>
         <div className="timeline_unit right" style={{backgroundColor: "#b4c8ff"}}>
           <div className="arrow" style={{backgroundColor: "#b4c8ff"}}></div>
 
@@ -60,11 +64,12 @@ export const Career = () => {
 
 
         </div>
+        </div>
 
         <div className="timeline_point smaller">
           <span>2018</span>
         </div>
-
+        <div style={{float: "left", width: "49%"}}>
         <div className="timeline_unit left"  style={{backgroundColor: "rgb(221, 255, 217)"}}>
           <div className="arrow"  style={{backgroundColor: "rgb(221, 255, 217)"}}></div>
 
@@ -92,11 +97,12 @@ export const Career = () => {
 
 
         </div>
+        </div>
 
         <div className="timeline_point smaller">
           <span>2015</span>
         </div>
-
+        <div style={{float: "right", width: "50%"}}>
         <div className="timeline_unit right"  style={{backgroundColor: "rgb(255, 214, 214)"}}>
           <div className="arrow"  style={{backgroundColor: "rgb(255, 214, 214)"}}></div>
 
@@ -118,25 +124,27 @@ export const Career = () => {
             • Vehicle Tracking: A system to track the travel history of a vehicle with the device. Worked on front-end development and assisted on database design. <br/>
           </p>
         </div>
+        </div>
         <div className="timeline_point smaller">
           <span>2013</span>
         </div>
+        <div style={{float: "left", width: "49%"}}>
+          <div className="timeline_unit left"  style={{backgroundColor: "rgb(255, 212, 242)"}}>
+            <div className="arrow"  style={{backgroundColor: "rgb(255, 212, 242)"}}></div>
 
-        <div className="timeline_unit left"  style={{backgroundColor: "rgb(255, 212, 242)"}}>
-          <div className="arrow"  style={{backgroundColor: "rgb(255, 212, 242)"}}></div>
-
-          <div className="icon">
-            <img src="https://mksdmcdn-9b59.kxcdn.com/awsm-wp/wp-content/themes/awsm-wp/assets/images/timeline-icons/planet-icon.png" alt=""/>
+            <div className="icon">
+              <img src="https://mksdmcdn-9b59.kxcdn.com/awsm-wp/wp-content/themes/awsm-wp/assets/images/timeline-icons/planet-icon.png" alt=""/>
+            </div>
+            <div className="data_meta_hold">
+              <h3 className="title_with_image">Mongolian University of Science and Technology</h3>
+              <h4 className="subtitle_with_image">Sep 2009 - Jun 2013</h4>
+            </div>
+            <p>Bachelor Degree in Computer Science</p>
           </div>
-          <div className="data_meta_hold">
-            <h3 className="title_with_image">Mongolian University of Science and Technology</h3>
-            <h4 className="subtitle_with_image">Sep 2009 - Jun 2013</h4>
-          </div>
-          <p>Bachelor Degree in Computer Science</p>
         </div>
         <div className="timeline_point smaller last">
           <span>Done</span>
         </div>
       </div>
-    </>)
+    </div>)
 }
