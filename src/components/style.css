@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .main-header {
     border-top: 13px solid #DDD;
     height: 50px;
@@ -34,6 +38,7 @@
     padding: 11px 15px 10px;
     font-family: 'PT Sans', Helvetica, Arial, sans-serif;
     color: #34799e;
+    text-decoration: none;
 }
 
 .main-nav li a:hover{
@@ -92,8 +97,8 @@
 }
 
 .pos_1 {
-    top: 90px;
-    left: -15px;
+    top: 220px;
+    left: 0px;
     background: url('facebook_ico.png');
     background-color: #3b5998;
     color: #FFFFFF;
@@ -118,24 +123,24 @@
     background-position: 0 0px;
 }
 .pos_2 {
-    top: 10px;
-    left: 40px;
+    top: 280px;
+    left: 195px;
     background: url('github_ico.png');
     background-color: #7292a2;
     color: #FFFFFF;
     background-position: 0 -40px;
 }
 .pos_3 {
-    top: 10px;
-    left: 230px;
+    top: 280px;
+    left: 70px;
     background: url('linkedin_ico.png');
     background-color: #71b2d0;
     color: #FFFFFF;
     background-position: 0 -40px;
 }
 .pos_4 {
-    top: 90px;
-    left: 290px;
+    top: 220px;
+    left: 275px;
     background: url('twitter_ico.png');
     background-color: #48c4d2;
     color: #FFFFFF;

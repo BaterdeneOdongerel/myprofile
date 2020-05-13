@@ -11,7 +11,8 @@ export const AboutMe = () => {
       </div>
       <div className="entry-content-wrapper">
 
-        <h3 style={{textAlign: "center"}}>Software developer having 4 years of hand-on experience of success playing key role on technical teams, engaged in development, upgrades, and maintenance of enterprise software. Expertise in a variety of technologies. </h3>
+      <h3 style={{textAlign: "center"}}>I am Full-stack web developer in Chicago, IL. <br/>
+      I have serious passion for creating intuitive, dynamic user experiences, and lag free web development</h3>
       </div>
 
     </>
