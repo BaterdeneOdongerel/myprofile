@@ -5,17 +5,17 @@ export const ProfilePhoto = () => {
   return(
     <div className="hero-image-parent">
       <div className="profile_social_links color_icons">
-        <a href="https://demo.mekshq.com/awsm-wp" className="pos_1 twitter_ico" >
-          <span>twitter</span>
+        <a href="https://www.facebook.com/bati.odon" className="pos_1 twitter_ico" >
+          <span>facebook</span>
         </a>
-        <a href="https://demo.mekshq.com/awsm-wp" className="pos_2 youtube_ico" >
-          <span>youtube</span>
-        </a>
-        <a href="https://demo.mekshq.com/awsm-wp" className="pos_3 tumblr_ico" >
-          <span>tumblr</span>
-        </a>
-        <a href="https://demo.mekshq.com/awsm-wp" className="pos_4 github_ico" >
+        <a href="https://github.com/BaterdeneOdongerel" className="pos_2 youtube_ico" >
           <span>github</span>
+        </a>
+        <a href="https://www.linkedin.com/in/baterdene-odongerel/" className="pos_3 tumblr_ico" >
+          <span>lin</span>
+        </a>
+        <a href="https://twitter.com/bati.odon" className="pos_4 github_ico" >
+          <span>twitter</span>
         </a>
       </div>
       <div className="hero-image">

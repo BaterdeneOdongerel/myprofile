@@ -4,9 +4,10 @@ export const Header = () => {
   return(
     <div className="main-nav">
       <ul>
-        <li><a>About</a></li>
-        <li><a>Portfolio</a></li>
-        <li><a>Contact</a></li>
+        <li><a href={"/#about"}>About</a></li>
+        <li><a href={"/#career"}>My Career</a></li>
+        <li><a href={"/#myskills"}>Skills</a></li>
+        <li><a href={"/#contact"}>Contact</a></li>
       </ul>
     </div>
   )
