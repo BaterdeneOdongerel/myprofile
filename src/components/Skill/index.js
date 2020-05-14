@@ -1,5 +1,6 @@
 import React from 'react';
-import './style.css';
+
+import './Skill.css';
 
 const Skill = ({ width, text, tag, color = '#fefefe' }) => {
   return (

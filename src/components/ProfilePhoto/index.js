@@ -1,6 +1,8 @@
-import me from './me.jpg';
+import me from '../../images/me.jpg';
 import React from 'react';
-import './style.css';
+
+import './ProfilePhoto.css';
+
 const ProfilePhoto = () => {
   return (
     <div id="profile" className="hero-image-parent">

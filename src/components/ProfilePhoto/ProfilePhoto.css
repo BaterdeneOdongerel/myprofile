@@ -1,0 +1,72 @@
+.hero-image-parent {
+  border: 1px dashed #ddd;
+  position: relative;
+  height: 320px;
+  width: 320px;
+  margin: 100px auto 35px;
+  border-radius: 160px;
+  border-radius: 50%;
+}
+
+.profile_social_links a {
+  display: block;
+  height: 43px;
+  width: 43px;
+  border-radius: 100px;
+  border-radius: 50%;
+  z-index: 100;
+  transition: background 0.3s ease 0s;
+  opacity: 0;
+  background-attachment: scroll;
+  border: 1px solid #ddd;
+  opacity: 1;
+  position: absolute;
+  color: #ffffff;
+  background-position: 1px -40px;
+}
+.profile_social_links a:hover {
+  background-color: #ffffff;
+  background-position: 0 0;
+}
+.profile_social_links a span {
+  display: none;
+}
+
+.pos_1 {
+  top: 220px;
+  left: 0;
+  background: url('../../images/facebook_ico.png');
+  background-color: #3b5998;
+}
+
+.pos_2 {
+  top: 280px;
+  left: 195px;
+  background: url('../../images/github_ico.png');
+  background-color: #7292a2;
+}
+
+.pos_3 {
+  top: 280px;
+  left: 70px;
+  background: url('../../images/linkedin_ico.png');
+  background-color: #71b2d0;
+}
+.pos_4 {
+  top: 220px;
+  left: 275px;
+  background: url('../../images/twitter_ico.png');
+  background-color: #48c4d2;
+}
+
+.hero-image {
+  height: 250px;
+  width: 250px;
+  border-radius: 125px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 35px 20px 50px 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
