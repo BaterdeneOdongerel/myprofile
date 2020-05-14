@@ -1,10 +1,10 @@
 import React from 'react';
-import './style.css';
+
+import './Career.css';
 
 const Career = () => {
   return (
     <div>
-      <br /> <br /> <br /> <br /> <br /> <br /> <br />
       <h1 id="career" className="main-title title">
         My <span className="inline_title"> career</span>
       </h1>
@@ -41,13 +41,13 @@ const Career = () => {
               <br />
               &#9679; Wrote the test code for the new modules.
               <br />
-              &#9679; Implemented and updated the rail tracking modules under direction of
-              Sr. engineer
+              &#9679; Implemented and updated the rail tracking modules under
+              direction of Sr. engineer
               <br />
               &#9679; Improved the test coverage in rail tracking system to 100%
               <br />
-              &#9679; Re-architected file processing of rail-worker module to balance the stress on the
-              server resource.
+              &#9679; Re-architected file processing of rail-worker module to
+              balance the stress on the server resource.
               <br />
             </p>
           </div>
@@ -108,13 +108,15 @@ const Career = () => {
             </div>
 
             <p>
-                  
-&#9679; Programmed module components using Ruby on Rails, Javascript, and Shell.
-   <br />
-&#9679; Automated unit and integrated testing and front-end testing using Capybara and Rspec scenarios.
-   <br />
-&#9679; Regular maintenance on modules and databases, speeding up the features.
-   <br />
+              &#9679; Programmed module components using Ruby on Rails,
+              Javascript, and Shell.
+              <br />
+              &#9679; Automated unit and integrated testing and front-end
+              testing using Capybara and Rspec scenarios.
+              <br />
+              &#9679; Regular maintenance on modules and databases, speeding up
+              the features.
+              <br />
             </p>
 
             <div className="clear"></div>
@@ -146,11 +148,12 @@ const Career = () => {
             </div>
 
             <p>
-                &#9679; Built a web info app to gather surveys from employees based on design specification.
-     <br />
-&#9679; Developed a MRBT report service to generate and render various reports from multimedia ring-back tone
-system
-   <br />
+              &#9679; Built a web info app to gather surveys from employees
+              based on design specification.
+              <br />
+              &#9679; Developed a MRBT report service to generate and render
+              various reports from multimedia ring-back tone system
+              <br />
             </p>
           </div>
         </div>

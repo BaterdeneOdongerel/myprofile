@@ -1,10 +1,11 @@
 import React from 'react';
-import './style.css';
+import './Header.css';
+
 const Header = () => {
   return (
     <div className="main-nav">
       <ul>
-       <li>
+        <li>
           <a href={'/#profile'}>Profile</a>
         </li>
         <li>
@@ -22,8 +23,6 @@ const Header = () => {
         <li>
           <a href={'/#contact'}>Contact</a>
         </li>
-
-
       </ul>
     </div>
   );

@@ -1,12 +1,15 @@
 import React from 'react';
 import Header from './Header';
-import ProfilePhoto from './profile-photo';
-import NameBox from './nameBox';
-import AboutMe from './About';
+import ProfilePhoto from './ProfilePhoto';
+import NameBox from './NameBox';
+import AboutMe from './AboutMe';
 import MySkills from './MySkills';
 import Contact from './Contact';
 import Career from './Career';
-import {Projects} from "./Projects"
+import Projects from './Projects';
+
+import './style.css';
+
 const BaseLayout = () => {
   return (
     <>

@@ -1,8 +1,9 @@
 import React from 'react';
-import './style.css';
-import Skill from './Skill';
+import Skill from '../Skill';
 
-export const MySkills = () => {
+import './MySkills.css';
+
+const MySkills = () => {
   const colors = [
     'rgb(255, 231, 114)',
     'rgb(180, 200, 255)',
