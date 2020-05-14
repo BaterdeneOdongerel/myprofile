@@ -37,22 +37,16 @@ const Career = () => {
             </div>
 
             <p>
-              Redesign: a project to build new micro-service front-end react app
-              from design scratch. <br />
-              * Played an important role in development of the app from
-              requirement definition through deployment
+              &#9679; Built react components in redesign project.
               <br />
-              * Wrote the test code for the new modules.
+              &#9679; Wrote the test code for the new modules.
               <br />
-              Rail Tracking: a system module for tracking the loads on the
-              railroad.
-              <br />
-              * Implemented and updated the software modules under direction of
+              &#9679; Implemented and updated the rail tracking modules under direction of
               Sr. engineer
               <br />
-              * Improved the test coverage to 100%
+              &#9679; Improved the test coverage in rail tracking system to 100%
               <br />
-              * Re-architected file processing to balance the stress on the
+              &#9679; Re-architected file processing of rail-worker module to balance the stress on the
               server resource.
               <br />
             </p>
@@ -114,31 +108,13 @@ const Career = () => {
             </div>
 
             <p>
-              Crowd-job is a micro-task specific crowdsourcing service that
-              enables individuals and businesses to coordinate the use of human
-              intelligence to perform tasks that computers are currently unable
-              to do.
-              <br />
-              www.abstask.com , www.crowd-job.com
-              <br />
-              Responsibilities:
-              <br />
-              * Programmed module components using Ruby on Rails, Javascript,
-              and Shell.
-              <br />
-              * Automated unit and integrated testing and front-end testing
-              using Capybara and Rspec scenarios.
-              <br />
-              * Regular maintenance on modules and databases, like speeding up
-              and keeping track of logs
-              <br />
-              * Planning with the manager new features, future releases, and
-              issues.
-              <br />
-              * Improved integration testing company-wide by preparing Gitlab CI
-              environment and documentation to support automated testing tools
-              and processes
-              <br />
+                  
+&#9679; Programmed module components using Ruby on Rails, Javascript, and Shell.
+   <br />
+&#9679; Automated unit and integrated testing and front-end testing using Capybara and Rspec scenarios.
+   <br />
+&#9679; Regular maintenance on modules and databases, speeding up the features.
+   <br />
             </p>
 
             <div className="clear"></div>
@@ -170,19 +146,11 @@ const Career = () => {
             </div>
 
             <p>
-              Japanese-Mongolian jointly-owned telecommunications company.{' '}
-              <br />
-              Developed and maintained web service collecting and storing
-              employee information. <br />
-              Projects: <br />
-              • Info Survey: An internal web to take surveys from employees in
-              Mobicom. Developed both back and front end <br />
-              • MRBT report service: a service to generate and render various
-              reports from multimedia ring-back tone system which allows users
-              to share their favorite songs with people who call them. <br />
-              • Vehicle Tracking: A system to track the travel history of a
-              vehicle with the device. Worked on front-end development and
-              assisted on database design. <br />
+                &#9679; Built a web info app to gather surveys from employees based on design specification.
+     <br />
+&#9679; Developed a MRBT report service to generate and render various reports from multimedia ring-back tone
+system
+   <br />
             </p>
           </div>
         </div>
@@ -192,11 +160,11 @@ const Career = () => {
         <div style={{ float: 'left', width: '49%' }}>
           <div
             className="timeline_unit left"
-            style={{ backgroundColor: 'rgb(255, 212, 242)' }}
+            style={{ backgroundColor: 'rgb(142, 248, 144)' }}
           >
             <div
               className="arrow"
-              style={{ backgroundColor: 'rgb(255, 212, 242)' }}
+              style={{ backgroundColor: 'rgb(142, 248, 144)' }}
             ></div>
 
             <div className="icon">
