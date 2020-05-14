@@ -4,6 +4,9 @@ const Header = () => {
   return (
     <div className="main-nav">
       <ul>
+       <li>
+          <a href={'/#profile'}>Profile</a>
+        </li>
         <li>
           <a href={'/#about'}>About</a>
         </li>
@@ -14,8 +17,13 @@ const Header = () => {
           <a href={'/#myskills'}>Skills</a>
         </li>
         <li>
+          <a href={'/#projects'}>Projects</a>
+        </li>
+        <li>
           <a href={'/#contact'}>Contact</a>
         </li>
+
+
       </ul>
     </div>
   );

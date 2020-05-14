@@ -1654,3 +1654,56 @@ p.quote {
 .services_box .button {
   margin: 20px 0 0;
 }
+
+.outer-box {
+    flex: none;
+    width: 23%;
+    padding: 10px;
+}
+
+.box {
+    border-radius: 12px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #E6ECF8;
+    color: #141c3a;
+    display: block;
+    padding: 1.25rem;
+    padding: 60px 35px;
+     text-align: center !important;
+}
+
+.box p {
+    font-size: 16px;
+        margin-bottom: 2rem;
+        font: inherit;
+        color: #141c3a;
+    font-family: "europa", sans-serif;
+
+}
+.box-header {
+   
+}
+.box-header div {
+    width: auto;
+    font-size: 25px;
+    font-weight: 900;
+
+}
+.project-icon {
+    width: 40px;
+    height: 40px;
+} 
+
+.box .bottom-link-disabled {
+    color: #7510F7;
+    opacity: 0.5;
+    height: 27px;
+     width: 50px;
+}
+.box .bottom-link {
+    color: #7510F7;
+    height: 27px;
+     width: 50px;
+     text-decoration: none;
+}

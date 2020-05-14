@@ -3,7 +3,7 @@ import React from 'react';
 import './style.css';
 const ProfilePhoto = () => {
   return (
-    <div className="hero-image-parent">
+    <div id="profile" className="hero-image-parent">
       <div className="profile_social_links color_icons">
         <a
           href="https://www.facebook.com/bati.odon"

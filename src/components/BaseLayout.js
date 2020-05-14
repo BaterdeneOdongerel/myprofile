@@ -6,7 +6,7 @@ import AboutMe from './About';
 import MySkills from './MySkills';
 import Contact from './Contact';
 import Career from './Career';
-
+import {Projects} from "./Projects"
 const BaseLayout = () => {
   return (
     <>
@@ -16,6 +16,7 @@ const BaseLayout = () => {
       <AboutMe />
       <Career />
       <MySkills />
+      <Projects />
       <Contact />
     </>
   );
