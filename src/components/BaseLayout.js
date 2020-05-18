@@ -13,6 +13,7 @@ import './style.css';
 const BaseLayout = () => {
   return (
     <>
+  
       <Header />
       <ProfilePhoto />
       <NameBox />
