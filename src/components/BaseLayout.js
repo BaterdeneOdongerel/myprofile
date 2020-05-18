@@ -7,13 +7,13 @@ import MySkills from './MySkills';
 import Contact from './Contact';
 import Career from './Career';
 import Projects from './Projects';
-
 import './style.css';
 
 const BaseLayout = () => {
   return (
     <>
-  
+
+
       <Header />
       <ProfilePhoto />
       <NameBox />

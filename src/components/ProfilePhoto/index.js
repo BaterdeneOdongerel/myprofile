@@ -1,6 +1,5 @@
 import me from '../../images/me.jpg';
 import React from 'react';
-
 import './ProfilePhoto.css';
 
 const ProfilePhoto = () => {
